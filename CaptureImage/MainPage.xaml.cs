@@ -16,9 +16,11 @@ namespace CaptureImage
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        public Image imgg;
         public MainPage()
         {
             InitializeComponent();
+            
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
@@ -49,6 +51,7 @@ namespace CaptureImage
                 return stream;
 
             });
+           // imgg.Source = srcc;
             MyImage.Source = srcc;
          
         }

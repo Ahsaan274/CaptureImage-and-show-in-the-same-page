@@ -10,21 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace CaptureImage
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WelcomePage : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public ImageSource src;
-        MainPage mp = new MainPage();
-        public WelcomePage()
+        public Page1()
         {
             InitializeComponent();
         }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            //your code here;
-
-
-        }
-
     }
 }

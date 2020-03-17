@@ -10,7 +10,7 @@ namespace CaptureImage
         {
             InitializeComponent();
 
-            MainPage = new CaptureImage.MainPage();
+            MainPage = new CaptureImage.Page1();
         }
 
         protected override void OnStart()

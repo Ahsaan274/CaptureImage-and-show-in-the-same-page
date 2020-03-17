@@ -37,7 +37,7 @@
                 Property=Height,Factor=.5,Constant=-110
                 }"
                    />
-            <Image WidthRequest="150" HeightRequest="150" Source="a.png"  x:Name="MyImage" 
+            <Image WidthRequest="150" HeightRequest="150" Source="a.png"  x:Name="MyImage" x:FieldModifier="public"
                    
                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
                 Property=Width,Factor=.5,Constant=-150
