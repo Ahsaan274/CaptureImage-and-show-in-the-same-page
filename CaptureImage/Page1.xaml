@@ -15,12 +15,11 @@
             </StackLayout>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="b.jpg"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="c.jpg"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="d.jpg"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="e.jpg"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="f.jpg"/>
 
                 </StackLayout>
 
@@ -37,11 +36,11 @@
             <StackLayout Orientation="Horizontal">
                 <ScrollView>
                     <StackLayout Orientation="Vertical" Margin="10,0,0,0">
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="b.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="c.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="d.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="e.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="f.jpg"/>
                     </StackLayout>
                 </ScrollView>
 
@@ -53,18 +52,18 @@
                         <Button Text="Button" Margin="40,0,30,10" />
                     </StackLayout>
                 </StackLayout>
-                
+
                 <ScrollView >
                     <StackLayout Orientation="Vertical" Margin="0,0,10,0">
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
-                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="b.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="c.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="d.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="e.jpg"/>
+                        <Image HeightRequest="100" WidthRequest="100" Source="f.jpg"/>
                     </StackLayout>
                 </ScrollView>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
-        
+
 </ContentPage>
