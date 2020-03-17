@@ -6,63 +6,65 @@
              mc:Ignorable="d"
              x:Class="CaptureImage.Page1">
     <ContentPage.Content>
+
         <StackLayout Orientation="Vertical">
-            <StackLayout Orientation="Horizontal" Padding="10" Margin="60,20,0,0">
+            <StackLayout Orientation="Horizontal" Padding="10" Margin="60,0,0,0">
                 <Label Text="Vouchar No:" BackgroundColor="BlueViolet" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"
                      Padding="10" />
                 <Entry Placeholder="Enter here your data"/>
             </StackLayout>
             <ScrollView Orientation="Horizontal">
-            <StackLayout Orientation="Horizontal">
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                
-            </StackLayout>
-                
+                <StackLayout Orientation="Horizontal">
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+
+                </StackLayout>
+
             </ScrollView>
-            <StackLayout Orientation="Horizontal" HeightRequest="200" WidthRequest="200" BackgroundColor="AliceBlue">
-                <Image WidthRequest="200" HeightRequest="200" Source="a.png" Margin="10,10,0,10"/>
+            <StackLayout Orientation="Horizontal" HeightRequest="200" WidthRequest="200" BackgroundColor="Blue">
+                <Image Source="a.png" Margin="10,10,0,10"/>
                 <Button Text="Capture!" Margin="20,150,0,10" WidthRequest="150" HeightRequest="40"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HeightRequest="50" WidthRequest="50" BackgroundColor="BlanchedAlmond">
-                <Button Text="Save" Margin="100,0,0,0" WidthRequest="150"/>
-                <Button Text="Logout" Margin="0,0,0,0" WidthRequest="150"/>
+                <Button Text="Save" Margin="60,0,0,0" WidthRequest="150"/>
+                <Button Text="Logout" Margin="10,0,0,0" WidthRequest="150"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <ScrollView>
-                <StackLayout Orientation="Vertical">
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                    <StackLayout Orientation="Vertical" Margin="10,0,0,0">
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
                     </StackLayout>
                 </ScrollView>
-               
-                <StackLayout  Orientation="Horizontal" WidthRequest="400" HeightRequest="400" BackgroundColor="Chocolate">
-                    <StackLayout Orientation="Vertical">
-                    <Label Text="Label" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White"
-                           Margin="50,50,0,0" FontSize="30" FlowDirection="MatchParent" WidthRequest="150"/>
-                        <Image Source="a.png" WidthRequest="100" HeightRequest="100" Margin="50,20,0,0"/>
-                        <Button Text="Button" Margin="50,0,0,0"/>
+
+                <StackLayout  Orientation="Horizontal" BackgroundColor="Chocolate" Padding="10" Margin="10">
+                    <StackLayout Orientation="Vertical" WidthRequest="250">
+                        <Label Text="Label" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="White"
+                           Margin="40,0,30,0" FontSize="30" WidthRequest="150"/>
+                        <Image Source="a.png" WidthRequest="100" HeightRequest="100" Margin="30,0,20,0"/>
+                        <Button Text="Button" Margin="40,0,30,10" />
                     </StackLayout>
                 </StackLayout>
-                <ScrollView>
-                    <StackLayout Orientation="Vertical">
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
-                        <Image HeightRequest="100" WidthRequest="100" Source="a.png"/>
+                
+                <ScrollView >
+                    <StackLayout Orientation="Vertical" Margin="0,0,10,0">
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
+                        <Image HeightRequest="50" WidthRequest="50" Source="a.png"/>
                     </StackLayout>
                 </ScrollView>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
+        
 </ContentPage>
